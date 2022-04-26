@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.appBar {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.loginSection {
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+.loginSection a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.movieImg {
+  width: 300px;
+  height: 400px;
+}
+
+.moviesList {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.movieCard {
+  padding-bottom: 20px;
+  border-radius: 3 0px;
+  overflow: hidden;
+}
+
+.modalWindow {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%),
+
+}
+
+.modalImg {
+  width: 100%;
+  height: 600px;
+
+}
+
+.movieGenere {
+  list-style: none;
+  padding: 0;
+}
+
+.movieGenere li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.bookingContainer {
+
+  padding: 40px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.bookingImg {
+  max-height: 80vh;
+  border-radius: 20px;
+}
+
+.bookingDetails {
+
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.bookingDetails p {
+  text-align: justify;
+}
+
+.bookingBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.signupForm,
+.loginForm {
+  min-width: 500px;
+  padding: auto;
+  background-color: #b6f3fd !important;
+  border-radius: 20px;
+
+}
+
+.signupForm {
+  min-height: 300px;
+}
+
+.loginForm {
+  min-height: 200px;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+
+}
+
+.logoSection {
+  text-align: left;
+}
+
+.logoSection a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.success {
+  background-color: #7fffd4;
+  color: rgb(4, 93, 1);
+}
+
+.error {
+  background-color: #fba8a8;
+  color: #a80202;
+}
+
+.error,
+.success {
+
+  min-width: 450px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
